@@ -1,2 +1,2 @@
-# impact-platform-composer
+# Impact Platform: Composer
 Docker container for Composer
