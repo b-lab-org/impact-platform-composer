@@ -4,7 +4,7 @@ MAINTAINER "The Impact Bot" <technology@bcorporation.net>
 WORKDIR /tmp
 
 RUN apt-get update -y && \
-    apt-get install -y php5-cli curl git php5-mcrypt php5-gd && \
+    apt-get install -y php5-cli php5-curl curl git php5-mcrypt php5-gd && \
     apt-get install -y php5-memcached memcached && \
     curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer && \
